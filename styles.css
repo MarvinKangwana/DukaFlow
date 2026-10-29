@@ -58,3 +58,46 @@ body {
     display: flex;
     background-image: url(utility/home-card2.png);
 }
+
+
+#features {
+    background-color: #F0FAF4;
+    height: 300px;
+}
+
+.features-card1 {
+    display: flex;
+}
+
+.features-card2 {
+    display: flex;
+    background-image: url(utility/home-card2.png);
+}
+
+#pricing {
+    background-color: #F0FAF4;
+    height: 300px;
+}
+
+.pricing-card1 {
+    display: flex;
+}
+
+.pricing-card2 {
+    display: flex;
+    background-image: url(utility/home-card2.png);
+}
+
+#about {
+    background-color: #F0FAF4;
+    height: 300px;
+}
+
+.about-card1 {
+    display: flex;
+}
+
+.about-card2 {
+    display: flex;
+    background-image: url(utility/home-card2.png);
+}
