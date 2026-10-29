@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+}
+
+.logo a {
+    color: #00834a;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation a,
+.header-action a {
+    color: #263238;
+    text-decoration: none;
+}
+
+.header-action a {
+    background-color: #00834a;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+}
+
+.navigation a:hover {
+    color: #00834a;
+}
+
+#home {
+    background-color: #F0FAF4;
+    height: 300px;
+}
+
+.home-card1 {
+    display: flex;
+}
+
+.home-card2 {
+    display: flex;
+    background-image: url(utility/home-card2.png);
+}
